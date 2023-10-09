@@ -57,7 +57,7 @@ const AboutSection = () => {
     <Image src="/images/about.png" alt='about image' width={500} height={500}/>
     <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-<p className='text-base lg:text-lg'>As a civil engineer transitioning to software engineering, I have knowledge in HTML, CSS, JavaScript, React and Next.js providing a comprehensive foundation in front-end web development. Also, I am familiar with version control systems such as Git. I have recently graduated from a front-end web development bootcamp, where I have learnt to create visually appealing, user-friendly websites that deliver outstanding user experiences.</p>
+<p className='text-base lg:text-lg text-[#adb7be]'>As a civil engineer transitioning to software engineering, I have knowledge in HTML, CSS, JavaScript, React and Next.js providing a comprehensive foundation in front-end web development. Also, I am familiar with version control systems such as Git. I have recently graduated from a front-end web development bootcamp, where I have learnt to create visually appealing, user-friendly websites that deliver outstanding user experiences.</p>
 <div className='flex flex-row mt-8'>
     <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
     <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
