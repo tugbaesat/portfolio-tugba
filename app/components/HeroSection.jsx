@@ -3,9 +3,6 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 
-
-
-
 const HeroSection = () => {
   return (
     <section>
@@ -18,7 +15,7 @@ const HeroSection = () => {
       sequence={[
         'Tugba',
         1000,
-        'Frontend Web Developer',
+        'Frontend Developer',
         1000,
         'Engineer',
         1000
