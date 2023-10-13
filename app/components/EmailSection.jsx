@@ -33,7 +33,11 @@ const EmailSection = () => {
             </div>
           </div>
           <div>
-            <form className="flex flex-col">
+            <form
+              action="https://getform.io/f/9b86678e-12ee-4787-94a3-854228d384ec"
+              method="POST"
+              className="flex flex-col"
+            >
               <div className="mb-6">
                 <label
                   className="block mb-2 text-sm font-medium text-slate-400"
@@ -42,6 +46,7 @@ const EmailSection = () => {
                   Your Email
                 </label>
                 <input
+                  name="email"
                   type="text"
                   id="email"
                   required
@@ -57,6 +62,7 @@ const EmailSection = () => {
                   Subject
                 </label>
                 <input
+                  name="subject"
                   type="text"
                   id="text"
                   required
