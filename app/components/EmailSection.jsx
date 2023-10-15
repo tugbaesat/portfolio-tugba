@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const EmailSection = () => {
   return (
-    <section id="contact" className="relative min-h-screen">
+    <section id="contact" className="relative min-h-screen text-center md:text-left">
       <div className="absolute bottom-0 bg-purple-300 rounded-full -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
       <div className="absolute top-0 bg-pink-300 rounded-full -right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       <div className="absolute bottom-0 bg-yellow-300 rounded-full -right-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
@@ -23,7 +23,7 @@ const EmailSection = () => {
               Feel free to contact me. I&apos;m always open to new opportunities
               and collaborations.{" "}
             </p>
-            <div className="flex flex-row gap-2 socials ">
+            <div className="flex flex-row gap-2 socials items-center justify-center md:justify-start">
               <Link href="https://github.com/tugbaesat">
                 <Image src={GithubIcon} alt="Github Icon" />
               </Link>
@@ -36,7 +36,7 @@ const EmailSection = () => {
             <form
               action="https://getform.io/f/9b86678e-12ee-4787-94a3-854228d384ec"
               method="POST"
-              className="flex flex-col"
+              className="flex flex-col text-left"
             >
               <div className="mb-6">
                 <label

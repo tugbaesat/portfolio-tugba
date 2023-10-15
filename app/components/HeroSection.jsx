@@ -46,7 +46,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="relative mt-4 place-self-center lg:mt-0">
-            <div className="rounded-full bg-gray-100 w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]">
+            <div className="rounded-full bg-gray-100 bg-opacity-50 w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]">
               <Image
                 src="/images/profile.png"
                 alt="profile image"

@@ -86,7 +86,7 @@ const AboutSection = () => {
           width={500}
           height={500}
         />
-        <div className="flex flex-col h-full mt-4 text-left md:mt-0">
+        <div className="flex flex-col h-full mt-4 text-center md:text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-blue-700">About Me</h2>
           <p className="text-base lg:text-lg text-[#adb7be]">
             As a civil engineer transitioning to software engineering, I have
@@ -117,7 +117,7 @@ const AboutSection = () => {
               Experience
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 text-left">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
