@@ -1,4 +1,35 @@
+
+
+# Tugba Esat Sahin - Portfolio Website
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## About the Project: 📚
+This is my portfolio website. In this website you can download my CV, learn more about me, you can check my projects and contact me.
+
+## Live Demo of the Project: 📹
+
+[Portfolio Page](https://clipboard-landing-page-challenge.vercel.app)
+
+## Technologies, Frameworks and Libraries: ☕️ 🐍 ⚛️
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+
+## Screenshots: 📷
+
+### Main Page
+![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/998cd559-446b-4485-ace5-2b780e2dd5e3)
+![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/0aa3113d-2604-4a9a-8778-f26c4d312442)
+![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/05804b2b-4ebf-45d4-a542-8774620eb594)
+![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/c75ad77b-2e47-4101-a202-d3e664b83aa6)
+![image](https://github.com/tugbaesat/clipboard-landing-page-challenge/assets/114342008/0cc5412a-a000-4369-ab76-2a3ed3b79fcf)
+
+
+## Authors: 💻
+[@tugbaesat](https://github.com/tugbaesat)
+
 
 ## Getting Started
 

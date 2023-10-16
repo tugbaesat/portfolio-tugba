@@ -31,7 +31,7 @@ const PortfolioSection = () => {
               href="/projects"
               className="w-full sm:w-fit items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden font-medium rounded-full group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white text-white focus:ring-4 focus:outline-none focus:ring-purple-800"
             >
-              <span className="block px-5 py-2 transition-all duration-75 ease-in bg-gray-900 rounded-full group-hover:bg-opacity-0">
+              <span className="block px-5 py-2 transition-all duration-75 ease-in bg-gray-50 bg-opacity-50 rounded-full group-hover:bg-opacity-0">
                 View More
               </span>
             </Link>

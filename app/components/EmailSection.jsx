@@ -6,7 +6,10 @@ import Image from "next/image";
 
 const EmailSection = () => {
   return (
-    <section id="contact" className="relative min-h-screen text-center md:text-left">
+    <section
+      id="contact"
+      className="relative min-h-screen text-center md:text-left"
+    >
       <div className="absolute bottom-0 bg-purple-300 rounded-full -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob pointer-events-none"></div>
       <div className="absolute top-0 bg-pink-300 rounded-full -right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000 pointer-events-none"></div>
       <div className="absolute bottom-0 bg-yellow-300 rounded-full -right-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000 pointer-events-none"></div>
@@ -87,9 +90,11 @@ Let's talk about...`}
               </div>
               <button
                 type="submit"
-                className="w-full px-6 py-3 mr-4 text-white rounded-lg bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200"
+                className="w-full items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden font-medium rounded-full group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white text-white  focus:ring-4 focus:outline-none focus:ring-purple-800"
               >
-                Send Message
+                <span className="block px-5 py-2 transition-all duration-75 ease-in bg-gray-50 bg-opacity-50 rounded-full group-hover:bg-opacity-0">
+                  Send Message
+                </span>
               </button>
             </form>
           </div>

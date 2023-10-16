@@ -89,13 +89,7 @@ const AboutSection = () => {
         <div className="flex flex-col h-full mt-4 text-center md:text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-blue-700">About Me</h2>
           <p className="text-base lg:text-lg text-[#adb7be]">
-            As a civil engineer transitioning to software engineering, I have
-            knowledge in HTML, CSS, JavaScript, React and Next.js providing a
-            comprehensive foundation in front-end web development. Also, I am
-            familiar with version control systems such as Git. I have recently
-            graduated from a front-end web development bootcamp, where I have
-            learnt to create visually appealing, user-friendly websites that
-            deliver outstanding user experiences.
+          As a former civil engineer who&apos;s made the exciting transition to software engineering, I bring a unique blend of experiences and a passion for front-end web development. My journey includes recent graduation from a dynamic front-end web development bootcamp, where I honed my skills in crafting visually appealing, user-centric websites that deliver exceptional user experiences.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
