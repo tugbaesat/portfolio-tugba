@@ -6,9 +6,9 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   return (
     <div className="relative flex items-center justify-center min-h-screen px-16 bg-gray-50">
-      <div className="absolute top-0 bg-purple-300 rounded-full -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-      <div className="absolute top-0 bg-yellow-300 rounded-full right-10 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-      <div className="absolute bg-pink-300 rounded-full bottom-15 -right-30 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+      <div className="absolute top-0 bg-purple-300 rounded-full -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob pointer-events-none"></div>
+      <div className="absolute top-0 bg-yellow-300 rounded-full right-10 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000 pointer-events-none"></div>
+      <div className="absolute bg-pink-300 rounded-full bottom-15 -right-30 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000 pointer-events-none"></div>
       <section className="relative flex items-center justify-between">
         <div className="flex flex-col-reverse md:flex-row ">
           <div className="text-center place-self-center md:text-left">

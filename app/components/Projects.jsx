@@ -30,7 +30,7 @@ const projectData = [
       image: projectImg2,
       gitUrl: "https://github.com/tugbaesat/movie-project",
       previewUrl:
-        "https://202303-prm-tr-few.github.io/movie-project-baris-tugba-ayman/",
+        "https://movie-project-tugbaesat.vercel.app/",
     },
     {
       id: 3,
@@ -43,12 +43,12 @@ const projectData = [
     },
     {
       id: 4,
-      title: "Tip Calculator App",
+      title: "Clipboard Landing Page",
       description:
-        "Tip Calculator App is built using React with Next.js for calculating tip and total cost of the bill per person.",
+        "This is a Frontend Mentor project, the aim is to build out this landing page and get it looking as close to the design as possible.",
       image: projectImg4,
-      gitUrl: "https://github.com/tugbaesat/nextjs-tip-calculator",
-      previewUrl: "https://nextjs-tip-calculator.vercel.app/",
+      gitUrl: "https://github.com/tugbaesat/clipboard-landing-page-challenge",
+      previewUrl: "https://clipboard-landing-page-challenge.vercel.app",
     },
     {
       id: 5,

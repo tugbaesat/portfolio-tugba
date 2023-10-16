@@ -12,7 +12,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
           alt={title}
           className="w-full h-full rounded-t-lg"
         />
-        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 gap-2">
+        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 gap-6">
           <Link
             href={gitUrl}
             className="h-14 w-14 border-2 relative rounded-full border-[#adb7be] hover:border-white group/link"
