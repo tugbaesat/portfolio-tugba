@@ -9,7 +9,7 @@ This is my portfolio website. In this website you can download my CV, learn more
 
 ## Live Demo of the Project: 📹
 
-[Portfolio Website](https://clipboard-landing-page-challenge.vercel.app)
+[Portfolio Website](https://tugbaesat.vercel.app)
 
 ## Technologies, Frameworks and Libraries: ☕️ 🐍 ⚛️
 - [Next.js](https://nextjs.org/)
