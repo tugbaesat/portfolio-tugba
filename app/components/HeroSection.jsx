@@ -6,9 +6,12 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   return (
     <div className="relative flex items-center justify-center min-h-screen px-16 bg-gray-50">
-      <div className="absolute top-0 bg-purple-300 rounded-full -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob pointer-events-none"></div>
-      <div className="absolute top-0 bg-yellow-300 rounded-full right-10 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000 pointer-events-none"></div>
-      <div className="absolute bg-pink-300 rounded-full bottom-15 -right-30 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000 pointer-events-none"></div>
+      <div class="hidden md:block">
+      <div class="absolute top-5 right-10 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
+        <div class="absolute top-5 left-10 bg-purple-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-7000 pointer-events-none"></div>
+        <div class="absolute bottom-5 left-1/3 bg-orange-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
+      </div>
+      <div class="md:hidden absolute top-1/4 right-1/4 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
       <section className="relative flex items-center justify-between">
         <div className="flex flex-col-reverse md:flex-row md:gap-24">
           <div className="text-center place-self-center md:text-left p-6">
@@ -32,7 +35,8 @@ const HeroSection = () => {
               />
             </h1>
             <p className="text-[#adb7be] text-base sm:text-lg lg:text-xl mb-6">
-              I&apos;m Tugba, a frontend web developer <br />based in Los Angeles.
+              I&apos;m Tugba, a frontend web developer <br />
+              based in Los Angeles.
             </p>
             <div>
               <a href="/resume.pdf" download="Resume">

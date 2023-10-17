@@ -76,9 +76,12 @@ const AboutSection = () => {
       id="about"
       className="relative flex items-center justify-center min-h-screen px-16 bg-gray-50 text-slate-400"
     >
-      <div className="absolute top-0 bg-purple-300 rounded-full -left-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob pointer-events-none"></div>
-      <div className="absolute bottom-0 bg-pink-300 rounded-full -right-20 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000 pointer-events-none"></div>
-      <div className="absolute top-0 bg-yellow-300 rounded-full -right-4 w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000 pointer-events-none"></div>
+      <div class="hidden md:block">
+        <div class="absolute top-5 left-1/4 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
+        <div class="absolute bottom-1/2 right-10 bg-blue-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000 pointer-events-none"></div>
+        <div class="absolute bottom-5 left-10 bg-orange-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
+      </div>
+      <div class="md:hidden absolute top-1/4 right-1/4 bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
       <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about.png"
@@ -89,7 +92,12 @@ const AboutSection = () => {
         <div className="flex flex-col h-full mt-4 text-center md:text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-blue-700">About Me</h2>
           <p className="text-base lg:text-lg text-[#adb7be]">
-          As a former civil engineer who&apos;s made the exciting transition to software engineering, I bring a unique blend of experiences and a passion for front-end web development. My journey includes recent graduation from a dynamic front-end web development bootcamp, where I honed my skills in crafting visually appealing, user-centric websites that deliver exceptional user experiences.
+            As a former civil engineer who&apos;s made the exciting transition
+            to software engineering, I bring a unique blend of experiences and a
+            passion for front-end web development. My journey includes recent
+            graduation from a dynamic front-end web development bootcamp, where
+            I honed my skills in crafting visually appealing, user-centric
+            websites that deliver exceptional user experiences.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton

@@ -29,7 +29,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       </div>
       <div className="text-[#adb7be] bg-gray-100 py-6 px-1 h-1/2 rounded-b-lg text-center">
         <h5 className="mb-2 text-xl font-semibold">{title}</h5>
-        <p className="text-[#adb7be} overflow-hidden h-24 ">{description}</p>
+        <p className="text-[#adb7be] overflow-auto h-24">{description}</p>
       </div>
     </section>
   );
