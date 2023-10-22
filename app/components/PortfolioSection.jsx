@@ -12,12 +12,12 @@ const PortfolioSection = () => {
         <div class="absolute top-5 right-24 bg-orange-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
       </div>
       <div class="md:hidden absolute top-1/4 right-1/4 bg-blue-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
-      <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-1 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="items-center justify-center gap-8 px-4 py-8 md:grid md:grid-cols-1 xl:gap-16 sm:py-16 xl:px-16">
         <h2 className="mt-4 mb-6 text-4xl font-bold text-center text-blue-700">
           My Portfolio
         </h2>
-        <div className="gap-4">
-          <div className="grid md:grid-cols-3">
+        <div >
+          <div className="md:grid md:grid-cols-3 flex flex-col items-center justify-center gap-4">
             {projectData.slice(0, 3).map((project) => (
               <ProjectCard
                 key={project.id}
