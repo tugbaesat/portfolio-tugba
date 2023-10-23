@@ -82,14 +82,14 @@ const AboutSection = () => {
         <div class="absolute bottom-5 left-10 bg-orange-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
       </div>
       <div class="md:hidden absolute top-1/4 right-1/4 bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
-      <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="items-start mt-4 gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about.png"
           alt="about image"
           width={500}
           height={500}
         />
-        <div className="flex flex-col h-full mt-4 text-center md:text-left md:mt-0">
+        <div className="flex flex-col h-screen mt-4 text-center md:text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-blue-700">About Me</h2>
           <p className="text-base lg:text-lg text-[#adb7be]">
             As a former civil engineer who&apos;s made the exciting transition
