@@ -4,6 +4,7 @@ import Link from "next/link";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import MenuOverlay from "./MenuOverlay";
+import AnimatedLink from "./AnimatedLink";
 
 const navLinks = [
   {
@@ -59,10 +60,17 @@ const Navbar = () => {
           </button>
         </div>
         <div className="hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 mt-0 md:p-0 md:flex-row md:space-x-8">
+          <ul
+            id="navLinks"
+            className="flex p-4 mt-0 md:p-0 md:flex-row md:space-x-8"
+          >
             {navLinks.map((link, index) => (
-              <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+              <li key={index} className="relative">
+                <AnimatedLink
+                  href={link.path}
+                  title={link.title}
+                  isLast={index + 1 === navLinks.length}
+                />
               </li>
             ))}
           </ul>

@@ -2,19 +2,25 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
     <div className="relative flex items-center justify-center min-h-screen px-16 bg-gray-50">
       <div class="hidden md:block">
-      <div class="absolute top-5 right-10 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
+        <div class="absolute top-5 right-10 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
         <div class="absolute top-5 left-10 bg-purple-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-7000 pointer-events-none"></div>
         <div class="absolute bottom-5 left-1/3 bg-orange-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
       </div>
       <div class="md:hidden absolute top-1/4 right-1/4 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
       <section className="relative flex items-center justify-between">
         <div className="flex flex-col-reverse md:flex-row md:gap-24">
-          <div className="text-center place-self-center md:text-left p-6">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="text-center place-self-center md:text-left p-6"
+          >
             <h1 className="mb-4 text-4xl font-extrabold text-slate-400 sm:text-5xl lg:text-6xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 Hello, I&apos;m{" "}
@@ -47,8 +53,13 @@ const HeroSection = () => {
                 </button>
               </a>
             </div>
-          </div>
-          <div className="relative mt-4 place-self-center lg:mt-0">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="relative mt-4 place-self-center lg:mt-0"
+          >
             <div className="rounded-full bg-gray-100 bg-opacity-50 w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]">
               <Image
                 src="/images/profile.png"
@@ -58,7 +69,7 @@ const HeroSection = () => {
                 height={500}
               />
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>

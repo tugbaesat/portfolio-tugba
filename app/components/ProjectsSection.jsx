@@ -21,8 +21,11 @@ const ProjectsSection = () => {
         <div class="absolute bottom-5 right-5 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
         <div class="absolute bottom-5 left-5 bg-orange-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
       </div>
-      <div class="md:hidden absolute top-1/4 right-1/4 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
-      <div class="md:hidden absolute bottom-1/4 left-1/8 bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
+      <div class="md:hidden absolute top-[20%] right-[25%] bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
+      <div class="md:hidden absolute bottom-[20%] left-[25%] bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
+      <h2 className="mt-4 mb-6 text-4xl font-bold text-center text-blue-700">
+        My Portfolio
+      </h2>
       <div className="sticky top-0 flex h-screen items-center overflow-hidden bg-neutral-200 bg-opacity-20 rounded-lg">
         <motion.div style={{ x }} className="flex gap-8">
           {projectData.map((project) => (
