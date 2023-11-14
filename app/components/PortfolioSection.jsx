@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="relative min-h-screen">
+    <section id="portfolio" className="relative min-h-screen pt-6">
       <div class="hidden md:block">
         <div class="absolute top-1/3 left-10 bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
         <div class="absolute bottom-5 right-1/4 bg-blue-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000 pointer-events-none"></div>

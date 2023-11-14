@@ -74,16 +74,14 @@ const TAB_DATA = [
         <li>
           {" "}
           <span className="font-bold">
-          MSc in Construction Management andEngineering
+            MSc in Construction Management andEngineering
           </span>
           , Middle East Technical University
         </li>
         <li>
           {" "}
-          <span className="font-bold">
-          BSc in Civil Engineering
-          </span>
-          , Middle East Technical University
+          <span className="font-bold">BSc in Civil Engineering</span>, Middle
+          East Technical University
         </li>
       </ul>
     ),
@@ -117,7 +115,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="relative flex items-center justify-center min-h-screen px-16 bg-gray-50 text-slate-400"
+      className="relative flex items-center justify-center min-h-screen p-16 lg:py-0 bg-gray-50 text-slate-400"
     >
       <div class="hidden md:block">
         <div class="absolute top-5 left-1/4 bg-pink-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
@@ -162,7 +160,7 @@ const AboutSection = () => {
               Experience
             </TabButton>
           </div>
-          <div className="mt-6 text-left">
+          <div className="mt-6 text-left text-xs">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>

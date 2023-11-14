@@ -8,7 +8,7 @@ const EmailSection = () => {
   return (
     <section
       id="contact"
-      className="relative min-h-screen text-center md:text-left"
+      className="relative min-h-screen text-center md:text-left pt-6"
     >
            <div class="hidden md:block">
         <div class="absolute bottom-5 left-8 bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>

@@ -13,7 +13,11 @@ const ProjectsSection = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["0.25%", "-91.5%"]);
 
   return (
-    <section id="projects" ref={targetRef} className="relative h-[150vh]">
+    <section
+      id="projects"
+      ref={targetRef}
+      className="relative h-screen overflow-auto"
+    >
       <div class="hidden md:block">
         <div class="absolute top-5 left-5 bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
         <div class="absolute bottom-1/3 right-1/2 bg-blue-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000 pointer-events-none"></div>
@@ -26,21 +30,18 @@ const ProjectsSection = () => {
       <h2 className="mt-4 mb-6 text-4xl font-bold text-center text-blue-700">
         My Portfolio
       </h2>
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden bg-neutral-200 bg-opacity-20 rounded-lg">
-        <motion.div style={{ x }} className="flex gap-8">
-          {projectData.map((project) => (
-            <motion.div key={project.id} whileHover={{ scale: 1.1 }}>
-              <ProjectCard
-                key={project.id}
-                title={project.title}
-                description={project.description}
-                imgUrl={project.image}
-                gitUrl={project.gitUrl}
-                previewUrl={project.previewUrl}
-              />
-            </motion.div>
-          ))}
-        </motion.div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-14 md:px-10 py-6">
+        {projectData.map((project) => (
+          <ProjectCard
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            imgUrl={project.image}
+            gitUrl={project.gitUrl}
+            previewUrl={project.previewUrl}
+          />
+        ))}
       </div>
     </section>
   );
