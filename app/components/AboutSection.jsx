@@ -8,15 +8,58 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="flex flex-col gap-2 pl-2 list-disc">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Tailwind CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Next.js</li>
-        <li>Git</li>
-      </ul>
+      <div className="grid grid-cols-2 gap-6">
+        <ul>
+          <li className="font-bold mb-2 underline">Frontend Development</li>
+          <li className="list-disc list-inside">React.js</li>
+          <li className="list-disc list-inside">Next.js</li>
+          <li className="list-disc list-inside">HTML</li>
+          <li className="list-disc list-inside">CSS</li>
+          <li className="list-disc list-inside">Responsive Design</li>
+        </ul>
+        <ul>
+          <li className="font-bold mb-2 underline">
+            JavaScript Libraries & Frameworks
+          </li>
+          <li className="list-disc list-inside">jQuery</li>
+          <li className="list-disc list-inside">Bootstrap</li>
+          <li className="list-disc list-inside">Tailwind CSS</li>
+        </ul>
+        <ul>
+          <li className="font-bold mb-2 underline">Testing & Optimization</li>
+          <li className="list-disc list-inside">Unit Testing (Jest)</li>
+          <li className="list-disc list-inside">Performance Optimization</li>
+          <li className="list-disc list-inside">Cross-Browser Compatibility</li>
+        </ul>
+        <ul>
+          <li className="font-bold mb-2 underline">
+            Version Control & Collaboration
+          </li>
+          <li className="list-disc list-inside">Git</li>
+          <li className="list-disc list-inside">
+            Collaborative Development using Git workflows
+          </li>
+        </ul>
+        <ul>
+          <li className="font-bold mb-2 underline">
+            API & Backend Interaction
+          </li>
+          <li className="list-disc list-inside">
+            API Integration & Development
+          </li>
+          <li className="list-disc list-inside">MongoDB</li>
+          <li className="list-disc list-inside">Firebase</li>
+        </ul>
+        <ul>
+          <li className="font-bold mb-2 underline">Soft Skills</li>
+          <li className="list-disc list-inside mb-2">Problem-Solving</li>
+          <li className="list-disc list-inside mb-2">Team Collaboration</li>
+          <li className="list-disc list-inside mb-2">Adaptability</li>
+          <li className="list-disc list-inside mb-2">Time Management</li>
+          <li className="list-disc list-inside mb-2">Communication</li>
+          <li className="list-disc list-inside mb-2">Creativity</li>
+        </ul>
+      </div>
     ),
   },
   {
@@ -25,20 +68,20 @@ const TAB_DATA = [
     content: (
       <ul className="flex flex-col gap-2 pl-2 list-disc">
         <li>
-          <span className="font-bold">Front-end Web Development Bootcamp</span>,
+          <span className="font-bold">Frontend Web Development Bootcamp</span>,
           Re:Coded
         </li>
         <li>
           {" "}
           <span className="font-bold">
-            Master of Science in Construction Management and Engineering
+          MSc in Construction Management andEngineering
           </span>
           , Middle East Technical University
         </li>
         <li>
           {" "}
           <span className="font-bold">
-            Bachelor of Science in Civil Engineering
+          BSc in Civil Engineering
           </span>
           , Middle East Technical University
         </li>
@@ -51,10 +94,10 @@ const TAB_DATA = [
     content: (
       <ul className="flex flex-col gap-2 pl-2 list-disc">
         <li>
-          <span className="font-bold">Civil Engineer</span>, EFK Engineering
+          <span className="font-bold">Civil Engineer,</span> EFK Engineering
         </li>
         <li>
-          <span className="font-bold">Intern</span>, Astaldi-Turkerler Joint
+          <span className="font-bold">Intern,</span> Astaldi-Turkerler Joint
           Venture
         </li>
       </ul>
@@ -119,7 +162,7 @@ const AboutSection = () => {
               Experience
             </TabButton>
           </div>
-          <div className="mt-8 text-left">
+          <div className="mt-6 text-left">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
