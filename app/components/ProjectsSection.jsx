@@ -16,7 +16,7 @@ const ProjectsSection = () => {
     <section
       id="projects"
       ref={targetRef}
-      className="relative h-screen overflow-auto"
+      className="relative min-h-screen pt-6 my-10"
     >
       <div class="hidden md:block">
         <div class="absolute top-5 left-5 bg-yellow-300 rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
         My Portfolio
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-14 md:px-10 py-6">
+      <div className="md:grid md:grid-cols-3 flex flex-col items-center justify-center gap-6 px-4">
         {projectData.map((project) => (
           <ProjectCard
             key={project.id}

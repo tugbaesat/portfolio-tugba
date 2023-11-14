@@ -27,22 +27,22 @@ const ProjectCard = ({
           </div>
         </div>
       </div>
-      <div className="text-[#adb7be] bg-gray-100 h-1/3 rounded-b-lg flex items-center justify-center gap-6">
+      <div className="text-[#adb7be] bg-gray-100 h-1/3 rounded-b-lg flex items-center justify-center gap-6 py-2">
         <div className="flex flex-col gap-2 items-center justify-center group/link cursor-pointer">
           <Link
             href={gitUrl}
-            className="h-12 w-12 border-2 relative rounded-full border-[#adb7be] hover:border-white group-hover/link:border-white"
+            className="h-8 w-8 border-2 relative rounded-full border-[#adb7be] hover:border-white group-hover/link:border-white"
           >
-            <CodeBracketIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#adb7be] cursor-pointer group-hover/link:text-white" />
+            <CodeBracketIcon className="h-6 w-6 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#adb7be] cursor-pointer group-hover/link:text-white" />
           </Link>
           <span className="group-hover/link:text-white">CODE</span>
         </div>
         <div className="flex flex-col gap-2 items-center justify-center group/link cursor-pointer">
           <Link
             href={previewUrl}
-            className="h-12 w-12 border-2 relative rounded-full border-[#adb7be] hover:border-white group-hover/link:border-white"
+            className="h-8 w-8 border-2 relative rounded-full border-[#adb7be] hover:border-white group-hover/link:border-white"
           >
-            <EyeIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#adb7be] cursor-pointer group-hover/link:text-white" />
+            <EyeIcon className="h-6 w-6 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#adb7be] cursor-pointer group-hover/link:text-white" />
           </Link>
           <span className="group-hover/link:text-white">DEMO</span>
         </div>

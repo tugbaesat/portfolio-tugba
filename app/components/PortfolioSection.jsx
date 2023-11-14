@@ -17,7 +17,7 @@ const PortfolioSection = () => {
           My Portfolio
         </h2>
         <div >
-          <div className="md:grid md:grid-cols-3 flex flex-col items-center justify-center gap-4">
+          <div className="md:grid md:grid-cols-3 flex flex-col items-center justify-center gap-6 px-4">
             {projectData.slice(0, 3).map((project) => (
               <ProjectCard
                 key={project.id}
