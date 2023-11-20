@@ -1,17 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       animation: {
         blob: "blob 7s infinite",
       },
@@ -32,6 +27,20 @@ module.exports = {
         },
       },
     },
+    colors: {
+      transparent: "transparent",
+      softOne: "#FAF3F0",
+      softTwo: "#F7EFE5",
+      pinkOne: "#FFCACC",
+      purpleOne: "#DBC4F0",
+      greenOne: "#D4E2D4",
+      blueOne: "#AEDEFC",
+      darkBlueOne: "#265073",
+      darkBlueTwo: "#164863",
+      greyOne: "#B4B4B3",
+      darkPurple: "#4B527E",
+      purpleTwo: "#7C81AD",
+    },
   },
   plugins: [],
-}
+};

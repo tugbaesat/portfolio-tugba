@@ -19,15 +19,15 @@ const ProjectCard = ({
       <div className="relative flex items-center justify-center w-full h-2/3 group">
         <Image src={imgUrl} alt={title} className="w-full h-full" />
         <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 items-center justify-center pt-6 px-2">
-          <div className="text-center text-[#adb7be]">
+          <div className="text-center text-greyOne">
             <h5 className="mb-2 text-sm font-semibold">{title}</h5>
-            <p className="text-[#adb7be] text-xs overflow-auto h-24">
+            <p className="text-greyOne text-xs overflow-auto h-24">
               {description}
             </p>
           </div>
         </div>
       </div>
-      <div className="text-[#adb7be] bg-gray-100 h-1/3 rounded-b-lg flex items-center justify-center gap-6 py-2">
+      <div className="text-greyOne bg-softTwo bg-opacity-70 hover:bg-opacity-80 h-1/3 rounded-b-lg flex items-center justify-center gap-6 py-2">
         <div className="flex flex-col gap-2 items-center justify-center group/link cursor-pointer">
           <Link
             href={gitUrl}

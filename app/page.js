@@ -7,9 +7,9 @@ import PortfolioSection from "./components/PortfolioSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen bg-gray-50">
+    <main className="flex flex-col min-h-screen bg-softOne">
       <Navbar />
-      <div className=" mt-24">
+      <div className="mt-24">
         <HeroSection />
         <AboutSection />
         <PortfolioSection />

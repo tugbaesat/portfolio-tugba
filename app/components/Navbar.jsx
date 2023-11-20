@@ -39,18 +39,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-gray-100 bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-softTwo bg-opacity-100  md:h-auto  md:bg-opacity-75">
       <div className="flex flex-wrap items-center justify-between px-4 py-2 mx-auto">
         <Link
           href={"/"}
-          className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 md:text-5xl"
+          className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purpleOne to-pinkOne md:text-5xl"
         >
           TUGBA
         </Link>
         <div className="block mobile-menu md:hidden">
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
-            className="flex items-center px-3 py-2 text-blue-700 border border-blue-700 rounded hover:text-blue-700 hover:border-blue-700"
+            className="flex items-center px-3 py-2 text-darkBlueOne border border-darkBlueOne rounded hover:text-darkBlueTwo hover:border-darkBlueTwo"
           >
             {navbarOpen ? (
               <XMarkIcon className="w-5 h-5" />
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="hidden md:block md:w-auto" id="navbar">
           <ul
             id="navLinks"
-            className="flex p-4 mt-0 md:p-0 md:flex-row md:space-x-8"
+            className="flex p-4 mt-0 md:p-0 md:flex-row md:space-x-8 "
           >
             {navLinks.map((link, index) => (
               <li key={index} className="relative">
