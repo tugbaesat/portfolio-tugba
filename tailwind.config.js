@@ -30,7 +30,9 @@ module.exports = {
     colors: {
       transparent: "transparent",
       softOne: "#FAF3F0",
-      softTwo: "#F7EFE5",
+      softTwo: "#F8E8EE",
+      darkOne: "#99627A",
+      darkTwo: "#643843",
       pinkOne: "#FFCACC",
       purpleOne: "#DBC4F0",
       greenOne: "#D4E2D4",
