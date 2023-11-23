@@ -11,7 +11,11 @@ const AnimatedLink = ({ href, title, isLast }) => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         className={`relative cursor-pointer uppercase overflow-hidden text-sm 
-      ${isLast ? "text-darkPurple dark:text-pinkOne" : "text-purpleTwo dark:text-purpleOne"}`}
+      ${
+        isLast
+          ? "text-darkPurple dark:text-pinkOne"
+          : "text-purpleTwo dark:text-purpleOne"
+      }`}
       >
         <AnimatedWord
           title={title}

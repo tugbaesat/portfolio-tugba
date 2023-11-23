@@ -10,12 +10,12 @@ const EmailSection = () => {
       id="contact"
       className="relative min-h-screen text-center md:text-left pt-6"
     >
-      <div class="hidden md:block">
-        <div class="absolute bottom-5 left-8 bg-darkBlueOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
-        <div class="absolute bottom-1/2 right-1/2 bg-pinkOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000 pointer-events-none"></div>
-        <div class="absolute top-1/3 right-8 bg-purpleTwo rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-7000 pointer-events-none"></div>
+      <div className="hidden md:block">
+        <div className="absolute bottom-5 left-8 bg-purpleTwo rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
+        <div className="absolute bottom-1/2 right-1/2 bg-pinkOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000 pointer-events-none"></div>
+        <div className="absolute top-1/3 right-8 bg-purpleOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-7000 pointer-events-none"></div>
       </div>
-      <div class="md:hidden absolute top-1/4 right-1/4 bg-softTwo rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
+      <div className="md:hidden absolute top-1/4 right-1/4 bg-softTwo rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
       <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-1 xl:gap-16 sm:py-16 xl:px-16">
         <h2 className="mt-4 mb-6 text-4xl font-bold text-center text-darkPurple uppercase">
           Contact Me

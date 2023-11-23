@@ -6,12 +6,12 @@ import Link from "next/link";
 const PortfolioSection = () => {
   return (
     <section id="portfolio" className="relative min-h-screen pt-6">
-      <div class="hidden md:block">
-        <div class="absolute top-[%10] left-10 bg-pinkOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
-        <div class="absolute bottom-5 right-1/4 bg-blueOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000 pointer-events-none"></div>
-        <div class="absolute top-5 right-24 bg-purpleOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
+      <div className="hidden md:block">
+        <div className="absolute top-[%10] left-10 bg-pinkOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000 pointer-events-none"></div>
+        <div className="absolute bottom-5 right-1/4 bg-blueOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000 pointer-events-none"></div>
+        <div className="absolute top-5 right-24 bg-purpleOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-8000 pointer-events-none"></div>
       </div>
-      <div class="md:hidden absolute top-1/4 right-1/4 bg-blueOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
+      <div className="md:hidden absolute top-1/4 right-1/4 bg-blueOne rounded-full w-72 h-72 mix-blend-multiply filter blur-xl opacity-70 pointer-events-none"></div>
       <div className="items-center justify-center gap-8 px-4 py-8 md:grid md:grid-cols-1 xl:gap-16 sm:py-16 xl:px-16">
         <h2 className="mt-4 mb-6 text-4xl font-bold text-center text-darkPurple uppercase">
           My Portfolio
