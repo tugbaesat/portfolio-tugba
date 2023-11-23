@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 
 const projects = () => {
   return (
-    <main className="flex flex-col min-h-screen bg-softOne">
+    <main className=" flex flex-col min-h-screen bg-softOne">
       <Navbar />
-      <div className="md:px-16 px-12">
+      <div className="md:px-16 px-12 py-4 bg-softOne dark:bg-darkOne">
         <ProjectsSection />
       </div>
       <Footer />

@@ -7,9 +7,7 @@ const NavLink = ({ href, title, onClick, isLast }) => {
       href={href}
       onClick={onClick}
       className={`block py-2 pl-3 pr-4 md:p-0 uppercase ${
-        isLast
-          ? "text-darkPurple  hover:text-blue-700"
-          : "text-purpleTwo  hover:text-slate-400"
+        isLast ? "text-darkPurple dark:text-pinkOne" : "text-purpleTwo dark:text-purpleOne"
       }`}
     >
       {title}

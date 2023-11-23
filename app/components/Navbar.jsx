@@ -39,18 +39,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-softTwo bg-opacity-100  md:h-auto  md:bg-opacity-75">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-softTwo md:dark:bg-opacity-75  md:h-auto  md:bg-opacity-75 dark:bg-darkTwo">
       <div className="flex flex-wrap items-center justify-between px-4 py-2 mx-auto">
         <Link
           href={"/"}
-          className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purpleOne to-pinkOne md:text-5xl"
+          className="text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purpleOne to-pinkOne md:text-5xl"
         >
           TUGBA
         </Link>
         <div className="block mobile-menu md:hidden">
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
-            className="flex items-center px-3 py-2 text-darkBlueOne border border-darkBlueOne rounded hover:text-darkBlueTwo hover:border-darkBlueTwo"
+            className="flex items-center px-3 py-2 text-darkBlueOne dark:text-softOne border border-darkBlueOne dark:border-softOne rounded"
           >
             {navbarOpen ? (
               <XMarkIcon className="w-5 h-5" />

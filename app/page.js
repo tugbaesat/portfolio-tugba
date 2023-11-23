@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen bg-softOne">
       <Navbar />
-      <div className="mt-24">
+      <div className="pt-24 bg-softOne dark:bg-darkOne">
         <HeroSection />
         <AboutSection />
         <PortfolioSection />
