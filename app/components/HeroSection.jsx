@@ -44,13 +44,12 @@ const HeroSection = () => {
               I&apos;m Tugba, a frontend web developer <br />
               based in Los Angeles.
             </p>
-            
           </motion.div>
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="relative mt-4 place-self-center lg:mt-0"
+            className="relative place-self-center"
           >
             <div className="rounded-full bg-gray-100 bg-opacity-50 w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]">
               <Image
@@ -63,17 +62,19 @@ const HeroSection = () => {
             </div>
           </motion.div>
         </div>
-        <motion.div initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }} >
-              <a href="/resume.pdf" download="Resume">
-                <button className="w-full sm:w-fit items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden font-medium rounded-full group bg-gradient-to-br from-purpleOne to-pinkOne group-hover:from-purpleOne group-hover:to-pinkOne text-purpleTwo focus:ring-4 focus:outline-none focus:ring-purpleOne">
-                  <span className="block px-5 py-2 transition-all duration-75 ease-in bg-pinkOne bg-opacity-50 rounded-full group-hover:bg-opacity-0">
-                    Download CV
-                  </span>
-                </button>
-              </a>
-            </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <a href="/resume.pdf" download="Resume">
+            <button className="w-full sm:w-fit items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden font-medium rounded-full group bg-gradient-to-br from-purpleOne to-pinkOne group-hover:from-purpleOne group-hover:to-pinkOne text-purpleTwo focus:ring-4 focus:outline-none focus:ring-purpleOne">
+              <span className="block px-5 py-2 transition-all duration-75 ease-in bg-pinkOne bg-opacity-50 rounded-full group-hover:bg-opacity-0">
+                Download CV
+              </span>
+            </button>
+          </a>
+        </motion.div>
       </section>
     </div>
   );
