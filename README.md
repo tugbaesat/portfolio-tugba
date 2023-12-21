@@ -1,22 +1,38 @@
 
 
-# Tugba Esat Sahin - Portfolio Website
+# Portfolio Showcase - Personal Website
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a personal portfolio website, providing visitors with the opportunity to download my CV, learn more about me, explore my projects, and easily get in touch.
 
-## About the Project: 📚
-This is my portfolio website. In this website you can download my CV, learn more about me, you can check my projects and contact me.
+## Technologies, Frameworks and Libraries: 🐍 ⚛️
+
+- **Frontend:** Next.js, React, Material-UI, Framer Motion, and React Type Animation for dynamic and visually appealing elements.
+ 
+- **Styling:** Utilized Tailwind CSS for a sleek and responsive design.
+
+- **Communication:** Integrated Resend for streamlined communication methods.
+
+[Next.js](https://nextjs.org/)
+[React](https://react.dev/)
+[Tailwind CSS](https://tailwindcss.com/)
+[Material-UI](https://mui.com/material-ui/)
+[Framer Motion](https://www.framer.com/motion/)
+[Resend](https://resend.com)
+
+## Project Properties: 🚀
+
+- **Dynamic Web Design:** Developed a dynamic and responsive website using Next.js, React, and Material-UI for an engaging user experience.
+
+- **Visual Dynamism:** Incorporated Framer Motion and React Type Animation for visually dynamic elements and effects.
+
+- **Communication Efficiency:** Utilized Resend to facilitate streamlined communication methods for efficient interactions.
+
+- **Responsive Design:** Ensured a sleek and responsive design through the use of Tailwind CSS, providing an optimal viewing experience on various devices.
+
 
 ## Live Demo of the Project: 📹
-
-[Portfolio Website](https://tugbaesat.vercel.app)
-
-## Technologies, Frameworks and Libraries: ☕️ 🐍 ⚛️
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-
+- Live Site URL: [Portfolio Website](https://tugbaesat.vercel.app)
+  
 ## Screenshots: 📷
 
 ### Hero Section
@@ -33,4 +49,5 @@ This is my portfolio website. In this website you can download my CV, learn more
 
 
 ## Authors: 💻
-[@tugbaesat](https://github.com/tugbaesat)
+- Website - [Tugba Esat Sahin](https://tugbaesatsahin.vercel.app)
+- GitHub - [@tugbaesat](https://github.com/tugbaesat)
