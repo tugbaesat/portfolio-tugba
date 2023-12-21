@@ -36,17 +36,19 @@ This project is a personal portfolio website, providing visitors with the opport
 ## Screenshots: 📷
 
 ### Hero Section
-![image](https://github.com/tugbaesat/portfolio-tugba/assets/114342008/54e33322-5484-4af8-846f-f4ce4518c6af)
+![image](./public/design/Screenshot_1.png)
 
 ### About Section
-![image](https://github.com/tugbaesat/portfolio-tugba/assets/114342008/c537fffc-5f67-418a-9050-6dcc90cae51f)
+![image](./public/design/Screenshot_2.png)
 
-### P0rtfolio Section
-![image](https://github.com/tugbaesat/portfolio-tugba/assets/114342008/fe828942-d6fa-4e2a-87f9-1ab7bb0a3b05)
+### Portfolio Section
+![image](./public/design/Screenshot_3.png)
 
 ### Contact Section
-![image](https://github.com/tugbaesat/portfolio-tugba/assets/114342008/4afcc619-8a6b-466e-9622-a63259191ce6)
+![image](./public/design/Screenshot_4.png)
 
+### All Projects Section
+![image](./public/design/Screenshot_5.png)
 
 ## Authors: 💻
 - Website - [Tugba Esat Sahin](https://tugbaesatsahin.vercel.app)
